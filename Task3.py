@@ -13,7 +13,7 @@ def get_numbers(numbers):
         count +=1
     return count
 
-def get_mult(numbers, index):
+def get_mult(numbers, datalist):
     mult = 1
     for i in datalist:
         mult *= numbers[i]
