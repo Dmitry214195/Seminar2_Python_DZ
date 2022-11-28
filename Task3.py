@@ -7,12 +7,6 @@ datalist = [2, 2, 3, 1, 4]
 
 numbers = list(range (-N,N + 1))
 
-def get_numbers(numbers):
-    count =0 
-    for element in numbers:
-        count +=1
-    return count
-
 def get_mult(numbers, datalist):
     mult = 1
     for i in datalist:
